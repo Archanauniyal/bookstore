@@ -1,0 +1,66 @@
+.loginPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.loginleft {
+    margin-top: 10rem;
+    gap: 2rem;
+    margin-right: 12rem;
+    padding: 20px;
+    /* border: 0.5px  gray solid; */
+    border-radius: 8px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.last {
+    margin: 2rem;
+    padding: 0.5rem;
+}
+
+.first {
+    padding: 0.5rem;
+}
+
+.email {
+    padding: 0.5rem;
+}
+
+.password {
+    margin-top: 2rem;
+    padding: 0.5rem;
+
+}
+
+.getstarted {
+    margin-top: 2rem;
+    color: #6c5751;
+    padding: 0.5;
+}
+
+.sinup {
+    text-align: center;
+    color: #6c5751;
+}
+
+.librarayimages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #c1a299;
+}
+
+.librarayimages :hover {
+    opacity: -60%;
+}
+
+.library img {
+    height: 243px;
+    width: 220px;
+    padding: 1px;
+    border-radius :10px;
+}
