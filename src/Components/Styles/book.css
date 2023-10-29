@@ -1,0 +1,24 @@
+.bookbanner img{
+    width: 100%;
+    height: 28rem;
+}
+.bookpagecard{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.booktextcards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 5rem;
+    margin-right: 5rem;
+   margin-top: 3rem;
+}
+.booktextcards img {
+    height: 400px;
+    width: 300px;
+
+}
+.booktextcards p{
+    color: #000;
+}

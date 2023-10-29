@@ -5,12 +5,13 @@
 }
 
 .loginleft {
-    margin-top: 10rem;
+    margin-top: 8rem;
     gap: 2rem;
-    margin-right: 12rem;
+    margin-right: 2rem;
     padding: 20px;
-    /* border: 0.5px  gray solid; */
     border-radius: 8px;
+    width: 25rem;
+    margin-left: 7rem;
 }
 
 .login {
@@ -19,48 +20,97 @@
 }
 
 .last {
-    margin: 2rem;
     padding: 0.5rem;
+    width: 150px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: 1px solid  rgb(217, 210, 210); 
+    height: 30px;
 }
 
 .first {
     padding: 0.5rem;
+    width: 115px;
+    border-radius: 5px;
+    border: 1px solid  rgb(217, 210, 210); 
+    height: 30px;
+  
 }
 
 .email {
     padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid  rgb(217, 210, 210); 
+    height: 30px;
 }
 
 .password {
     margin-top: 2rem;
     padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid  rgb(221, 216, 216); 
+    height: 30px;
 
 }
 
 .getstarted {
-    margin-top: 2rem;
-    color: #6c5751;
-    padding: 0.5;
+    width: 100%;
+    height: 55px;
+    background: #2364d2;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Source Sans Pro", sans-serif;
+    box-shadow: 3px 10px 20px 0px rgba(35, 100, 210, 0.3);
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer
 }
 
 .sinup {
     text-align: center;
-    color: #6c5751;
+    color: #7b7674;
+  
+}
+
+.sinup h4{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+
 }
 
 .librarayimages {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: #c1a299;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #e3dddb;
+   
+  
 }
 
 .librarayimages :hover {
     opacity: -60%;
 }
+.library{
+    height: 246px;
+}
 
 .library img {
-    height: 243px;
+    height: 246px;
     width: 220px;
-    padding: 1px;
-    border-radius :10px;
 }
+.loginmain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.border{
+    border: 0.5px ;
+    padding: 30px;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+::placeholder {
+    color:  rgb(160, 151, 151); 
+  }

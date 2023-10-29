@@ -1,0 +1,29 @@
+.footermain{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+li {
+    color: antiquewhite;
+}
+p{
+    color: antiquewhite; 
+}
+h3{
+    color: white;
+}
+.footer{
+    background-color:#735e59;
+}
+.iconsfooter{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
+  margin-left: 42rem;
+  margin-right: 42rem;
+
+}
+svg{
+    height: 1.5rem;
+    width: 2rem;
+}

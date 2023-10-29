@@ -11,10 +11,15 @@ import pic7 from "../Images/library6.jpg";
 import pic8 from "../Images/library7.jpeg";
 import pic9 from "../Images/library8.jpeg";
 import pic10 from "../Images/library9.jpeg";
+import pic11 from "../Images/library10.jpg";
+import pic12 from "../Images/library11.jpg";
+import pic13 from "../Images/library12.jpg";
+
 
 export default function Login() {
   return (
     <>
+    <div className="loginmain">
       <div className="loginPage">
         <div className="librarayimages">
           <div className="library">
@@ -33,10 +38,10 @@ export default function Login() {
             <img src={pic6} alt="fghjk" />
           </div>
           <div className="library">
-            <img src={pic7} alt="fghjk" />
+            <img src={pic13} alt="fghjk" />
           </div>
           <div className="library">
-            <img src={pic8} alt="fghjk" />
+            <img src={pic12} alt="fghjk" />
           </div>
           <div className="library">
             <img src={pic9} alt="fghjk" />
@@ -44,24 +49,35 @@ export default function Login() {
           <div className="library">
             <img src={pic10} alt="fghjk" />
           </div>
+          <div className="library">
+            <img src={pic11} alt="fghjk" />
+          </div>
+          <div className="library">
+            <img src={pic8} alt="fghjk" />
+          </div>
+          <div className="library">
+            <img src={pic7} alt="fghjk" />
+          </div>
         </div>
-        <div className="loginleft">
-          <input className="first" type="text" placeholder="first name" />
-          <input className="last" type="text" placeholder="last name" />
+      </div>
+      <div className="loginleft">
+        <div className="border">
+          <input className="first" type="text" placeholder="First name" />
+          <input className="last" type="text" placeholder="Last name" />
           <div className="login">
-            <input className="email" type="text" placeholder="email" />
-            <input className="password" type="text" placeholder="password" />
+            <input className="email" type="text" placeholder="Email" />
+            <input className="password" type="text" placeholder="Password"/>
           </div>
           <Link to="/home">
             <button className="getstarted">GET STARTED</button>
           </Link>
           <div className="sinup">
-            <h4>SING UP</h4>
-            <h5>OR</h5>
+          <p className="paragraph">OR</p>
             <h4>LOGIN</h4>
           </div>
+          </div>
         </div>
-      </div>
+        </div>
     </>
   );
 }

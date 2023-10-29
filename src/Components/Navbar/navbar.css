@@ -1,0 +1,52 @@
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: larger;
+    color: rgb(132, 88, 88);
+}
+.navbarli{
+    color: rgb(132, 88, 88);
+    text-decoration: none !important;
+
+}
+.navbartext{
+    background-color: #735e59;
+ text-align: center;
+   height: 60px;
+   padding: 0px;
+   margin: 0px;
+}
+.navbartext h5{
+    color: white;
+   padding: 1.5rem;
+}
+.searchbar{
+    width: 1000px;
+    height: 1.8rem;
+    margin-top: 2rem;
+
+}
+.navbartop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(255, 244, 237, 1);
+
+}
+
+.logo img{
+    height: 100px;
+    width: 120px;
+}
+.icon{
+    margin-top: 2.5rem;
+    margin-right: 24rem;
+   width: 40px;
+}
+.searchbutton{
+    height: 35px;
+    margin-top: 2rem;
+    width: 80px;
+}
