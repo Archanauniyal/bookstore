@@ -14,8 +14,7 @@ export default function Navbar() {
    <div className='navbartop'>
    <div className='logo'><img src={pic1}/></div>
    <input className='searchbar' type='text' placeholder='searchbar'></input>
-   <button className='searchbutton'>search</button>
-    <div className='icon'> <AiOutlineSearch/></div>
+   <button className='searchbutton icon'><AiOutlineSearch/></button>
    </div>
    <div className='navbar'>
     <ul>

@@ -31,11 +31,11 @@ export default function Footer() {
     </ul>
   </div>
   <div className='comsumer'>
-    <h3>Comsuer POlicy</h3>
+    <h3>Comsuer Policy</h3>
     <ul>
-    <li>Return POlicy</li>
+    <li>Return Policy</li>
     <li>Terms of Use</li>
-    <li>Privacy</li>
+    <li>Privacy</li>                                                                                                                            
     </ul>
   </div>
   <div className='Follow'>

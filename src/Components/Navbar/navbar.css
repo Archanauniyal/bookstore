@@ -12,20 +12,24 @@
 
 }
 .navbartext{
-    background-color: #735e59;
- text-align: center;
-   height: 60px;
-   padding: 0px;
-   margin: 0px;
+   background-color: #735e59;
+   text-align: center;
+   height: 40px;
 }
 .navbartext h5{
     color: white;
-   padding: 1.5rem;
+  margin-top: 0px;
+   
+  
 }
 .searchbar{
     width: 1000px;
-    height: 1.8rem;
+    height: 2rem;
     margin-top: 2rem;
+    margin-left: 15rem;
+    border-radius: 10px;
+    border: 1px solid #947b86;
+    margin-right: 5px;
 
 }
 .navbartop{
@@ -38,7 +42,9 @@
 
 .logo img{
     height: 100px;
-    width: 120px;
+    width: 100px;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
 }
 .icon{
     margin-top: 2.5rem;
@@ -46,7 +52,9 @@
    width: 40px;
 }
 .searchbutton{
-    height: 35px;
+    height: 2.2rem;
     margin-top: 2rem;
-    width: 80px;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid #947b86;
 }
