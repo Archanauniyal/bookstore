@@ -1,0 +1,16 @@
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+}
+.blogbook img{
+    height: 250px;
+    width: 400px;
+    margin-left: 3rem;
+}
+.blogmain h4{
+    margin-left: 38rem;
+}
+.blogmain h1{
+    margin-left: 42rem;
+}
