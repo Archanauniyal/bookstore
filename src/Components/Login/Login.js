@@ -17,8 +17,10 @@ import pic13 from "../Images/library12.jpg";
 
 
 export default function Login() {
+  
   return (
     <>
+    
     <div className="loginmain">
       <div className="loginPage">
         <div className="librarayimages">
@@ -69,7 +71,7 @@ export default function Login() {
             <input className="password" type="text" placeholder="Password"/>
           </div>
           <Link to="/home">
-            <button className="getstarted">GET STARTED</button>
+            <button  className="getstarted">GET STARTED</button>
           </Link>
           <div className="sinup">
           <p className="paragraph">OR</p>
